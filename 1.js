@@ -5,7 +5,7 @@
 // // b.appendChild(a);
 // b.hidden=false;
 // },1000);
-let j=0;
+var j=0;
 let count=0;
 let a= document.getElementById("am");
 let b= document.getElementById("an");
