@@ -13,9 +13,9 @@ let n= document.getElementById("ac");
 let s=document.getElementsByTagName("body")[0];
 console.log(s);
 b.addEventListener("click",mouseHover);
-b.addEventListener("mouseenter",mouseHover)
+b.addEventListener("mousemove",mouseHover)
 s.addEventListener("click",mouse);
-s.addEventListener("mouseenter",mouse)
+s.addEventListener("mousemove",mouse)
 var audio = document.getElementById("my");
 
 function mouse(){
