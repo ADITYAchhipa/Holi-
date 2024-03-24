@@ -22,10 +22,14 @@ function mouseHover(){
 }
 a.onclick=()=>{
     n.setAttribute("class","a2")
-    n.innerHTML="<b>Message me the location</b>"+"<br>"+"</br>"+"<b>Happy holi cia</b>"
+    n.innerHTML="<b>Decide the location</b>"+"<br><br>"+"<br>"+"<b>Happy holi cia</b>"
     a.setAttribute("hidden","true");
     b.setAttribute("hidden","true");
     // n.style.color="black";
+
+    //  email code
+
+    
     (function(){
         emailjs.init("xvJBD3idXnQ7JAJOi")
     })();
@@ -50,9 +54,17 @@ a.onclick=()=>{
     emailjs.send(serviceID,templateID,params)
     .then(res=>{
 
-        // alert("not done");
-        location.href="https://www.instagram.com"
-        //  flag=true;
+      
     })
     .catch();
+var audio = document.getElementById("myAudio");
+  audio.play();
+}
+let nn=document.getElementById("am");
+// console.log(n7)
+nn.onclick=()=>{
+//   alert("hii")
+  
+  var audio = document.getElementById("myAudio");
+  audio.play();
 }
